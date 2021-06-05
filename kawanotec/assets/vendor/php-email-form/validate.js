@@ -124,7 +124,3 @@ jQuery(document).ready(function($) {
   });
 
 });
-
-    $('form').submit(function(){
-      $(this)[0].reset();
-});

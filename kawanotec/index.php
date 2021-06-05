@@ -228,19 +228,19 @@
                     </div>
                     <div class="form-group">
                         <label for="inputNome">Nome Completo</label>
-                        <input type="text" name="nome" class="form-control" id="nome" placeholder="Nome"
+                        <input type="text" name="nome" class="form-control" id="nome" placeholder="Seu Nome Completo"
                             data-rule="minlen:2" data-msg="Insira seu nome" />
                         <div class="validate"></div>
                     </div>
                     <div class="form-group">
                         <label for="inputTelefone">Telefone para contato</label>
                         <input type="text" name="telefone" class="form-control" id="telefone"
-                            placeholder="Número Telefone com DDD" data-rule="minlen:2" data-msg="Insira seu telefone" />
+                            placeholder=" Seu Número Telefone com DDD" data-rule="minlen:2" data-msg="Insira seu telefone" />
                         <div class="validate"></div>
                     </div>
                     <div class="form-group">
                         <label for="inputCidade">Cidade</label>
-                        <input type="text" name="local" class="form-control" id="local" placeholder="Cidade e Estado"
+                        <input type="text" name="local" class="form-control" id="local" placeholder="Sua Cidade/Estado"
                             data-rule="minlen:2" data-msg="Insira sua cidade" />
                         <div class="validate"></div>
                     </div>
@@ -263,8 +263,8 @@
 
                 <div class="section-title">
                     <h2>Porque escolher a KawanoTec?</h2>
-                </div>
-                <br><br>
+                </div>                
+
                 <div class="row d-flex align-items-stretch">
 
                     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
@@ -384,12 +384,12 @@
                         <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                             <div class="form-row">
                                 <div class="col-lg-6 form-group">
-                                    <input type="text" name="nome" class="form-control" id="nome"
-                                        placeholder="Nome Completo" data-rule="minlen:3" data-msg="Insira seu nome" />
+                                    <input type="text" name="name" class="form-control" id="name"
+                                        placeholder="Seu Nome Completo" data-rule="minlen:3" data-msg="Insira seu nome" />
                                     <div class="validate"></div>
                                 </div>
                                 <div class="col-lg-6 form-group">
-                                    <input type="email" class="form-control" name="email" id="email" placeholder="Email"
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Seu Email"
                                         data-rule="email" data-msg="Por favor, digite um email válido" />
                                     <div class="validate"></div>
                                 </div>
@@ -402,7 +402,7 @@
                             </div>
                             <div class="form-group">
                                 <textarea class="form-control" name="mensagem" rows="5" data-rule="required"
-                                    data-msg="Por favor, escreva o assunto" placeholder="Mensagem"></textarea>
+                                    data-msg="Por favor, escreva o assunto" placeholder="Escreva Sua Mensagem"></textarea>
                                 <div class="validate"></div>
                             </div>
                             <div class="mb-3">
@@ -448,14 +448,11 @@
                                 <a href="https://api.whatsapp.com/send?phone=5517991427730" class="whatsapp"><i
                                         class="icofont-whatsapp"></i></a>
                                 <a href="https://t.me/KawanoTec" class="telegram"><i class="icofont-telegram"></i></a>
-                                <a href="https://bit.ly/2VuQ6d6" class="youtube"><i class="icofont-youtube"></i></a>
-                                <br><br>
+                                <a href="https://bit.ly/2VuQ6d6" class="youtube"><i class="icofont-youtube"></i></a>                                
                         </ul>
                     </div>
                 </div>
             </div>
-        </div>
-        </div>
         </div>
 
         <div class="container">

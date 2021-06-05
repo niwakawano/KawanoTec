@@ -3,14 +3,14 @@
 $email    = 'contato@kawanotec.com.br';
 $assunto  = 'Contato KawanoTec';
 $corpo    = "
-Mensagem enviada por: ".$_POST['nome']."      
+Mensagem enviada por: "    . $_POST['name']."      
   
-E-mail: ".$_POST['email']."
+E-mail: "                  . $_POST['email']."
   
-Conteúdo da Mensagem: ".$_POST['mensagem']."
+Conteúdo da Mensagem: "    . $_POST['mensagem']."
 ";
 
-if(mail($email, $assunto, $corpo,)){ 
+if(mail($email, $assunto, $corpo)){ 
   echo "E-mail enviado com sucesso!";
  
 }else{ 
@@ -19,3 +19,4 @@ if(mail($email, $assunto, $corpo,)){
 }
 
 ?>
+
