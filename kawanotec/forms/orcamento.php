@@ -3,9 +3,11 @@
 $email     = 'orcamento@kawanotec.com.br';
 $assunto   = 'Orçamento KawanoTec';
 $corpo     = "
-Manutenção ou Compra: "             . $_POST['servico']." 
-   
-Modelo/Versão do Produto: "         . $_POST['produto']."  
+Manutenção ou Compra: "             . $_POST['servico']."
+
+Modelo/Versão do Produto: "         . $_POST['produto']."
+
+Manutenção ou Compra: "             . $_POST['servico']."
   
 Reparo ou venda: "                  . $_POST['problema']."    
   

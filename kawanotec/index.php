@@ -11,7 +11,7 @@
 
     <!-- Favicons -->
     <link href="assets/imgs/favicon.ico" rel="icon">
- 
+
     <!-- Google Fonts -->
     <link
         href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i,900"
@@ -183,12 +183,12 @@
                 </div>
         </section><!-- End Serviços Section -->
 
-
         <!-- ======= Orçamento Section ======= -->
-        <section id="form" class="form-orc" style="background-image: url('assets/imgs/form.jpg');">
+        <section id="orcamento" class="form-orc" style="background-image: url('assets/imgs/form.jpg');">
             <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 mx-auto" data-aos="fade-up" data-aos-delay="100">
                 <h3 id="orcamento">Faça seu orçamento sem custo</h3>
-                <form action="forms/orcamento.php" method="post" role="form" class="php-email-form">
+                <form action="forms/orcamento.php" method="post" role="form"
+                    class="php-email-form">
                     <br>
                     <div class="form-check">
                         <input class="form-check-input" type="radio" name="servico" id="servico"
@@ -198,50 +198,52 @@
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="servico" id="servico"
+                        <input class="form-check-input" type="radio" name="servico" id="serv"
                             value="Compra de Aparelho">
                         <label class="form-check-label" for="exampleRadios2">
                             Compra de Aparelho
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="servico" id="servico"
+                        <input class="form-check-input" type="radio" name="servico" id="ser"
                             value="Compra de Produtos ou Acessórios">
                         <label class="form-check-label" for="exampleRadios2">
                             Compra de Produtos ou Acessórios
                         </label>
                     </div>
-                    <br>
+                    <br>                    
                     <div class="form-group">
-                        <label for="inputAparelho">Aparelho</label>
+                        <label for="inputAparelho">Aparelho ou Acessório</label>
                         <input type="text" name="produto" class="form-control" id="produto"
-                            placeholder="Modelo do Aparelho" data-rule="minlen:2"
+                            placeholder="Modelo do Aparelho ou Acessório" data-rule="required"
                             data-msg="Insira o modelo do aparelho, produto ou acessório" />
                         <div class="validate"></div>
                     </div>
+
                     <div class="form-group">
                         <label for="inputDefeito">Qual o defeito ou compra a ser realizada?</label>
                         <input type="text" name="problema" class="form-control" id="problema"
-                            placeholder="Defeito ou compra" data-rule="minlen:2"
+                            placeholder="Defeito ou compra" data-rule="required"
                             data-msg="Por favor insira o defeito ou produto" />
                         <div class="validate"></div>
                     </div>
                     <div class="form-group">
                         <label for="inputNome">Nome Completo</label>
                         <input type="text" name="nome" class="form-control" id="nome" placeholder="Seu Nome Completo"
-                            data-rule="minlen:2" data-msg="Insira seu nome" />
+                        data-rule="required" data-msg="Insira seu nome" />
                         <div class="validate"></div>
                     </div>
                     <div class="form-group">
                         <label for="inputTelefone">Telefone para contato</label>
                         <input type="text" name="telefone" class="form-control" id="telefone"
-                            placeholder=" Seu Número Telefone com DDD" data-rule="minlen:2" data-msg="Insira seu telefone" />
+                            placeholder=" Seu Número Telefone com DDD" data-rule="required"
+                            data-msg="Insira seu telefone" />
                         <div class="validate"></div>
                     </div>
                     <div class="form-group">
                         <label for="inputCidade">Cidade</label>
                         <input type="text" name="local" class="form-control" id="local" placeholder="Sua Cidade/Estado"
-                            data-rule="minlen:2" data-msg="Insira sua cidade" />
+                        data-rule="required" data-msg="Insira sua cidade" />
                         <div class="validate"></div>
                     </div>
                     <div class="mb-3">
@@ -252,7 +254,8 @@
                     <br>
                     <button type="submit" class="btn">Solicitar Orçamento</button>
                 </form>
-            </div>
+                
+                </div>
             </div>
         </section>
         <!-- End Orçamento Section -->
@@ -263,7 +266,7 @@
 
                 <div class="section-title">
                     <h2>Porque escolher a KawanoTec?</h2>
-                </div>                
+                </div>
 
                 <div class="row d-flex align-items-stretch">
 
@@ -353,7 +356,7 @@
         <!-- End Depoimentos Section -->
 
         <!-- ======= Contato Section ======= -->
-        <section id="contato" class="contact">
+        <section id="contact" class="contact">
             <div class="container">
                 <div class="section-title">
                     <h2>Contato</h2>
@@ -385,24 +388,27 @@
                             <div class="form-row">
                                 <div class="col-lg-6 form-group">
                                     <input type="text" name="name" class="form-control" id="name"
-                                        placeholder="Seu Nome Completo" data-rule="minlen:3" data-msg="Insira seu nome" />
+                                        placeholder="Seu Nome Completo" data-rule="required"
+                                        data-msg="Insira seu nome" />
                                     <div class="validate"></div>
                                 </div>
                                 <div class="col-lg-6 form-group">
-                                    <input type="email" class="form-control" name="email" id="email" placeholder="Seu Email"
-                                        data-rule="email" data-msg="Por favor, digite um email válido" />
+                                    <input type="email" class="form-control" name="email" id="email"
+                                        placeholder="Seu Email" data-rule="required"
+                                        data-msg="Por favor, digite um email válido" />
                                     <div class="validate"></div>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <input type="text" class="form-control" name="assunto" id="assunto"
-                                    placeholder="Assunto" data-rule="minlen:3"
+                                    placeholder="Assunto" data-rule="required"
                                     data-msg="Por favor, insira um assunto" />
                                 <div class="validate"></div>
                             </div>
                             <div class="form-group">
                                 <textarea class="form-control" name="mensagem" rows="5" data-rule="required"
-                                    data-msg="Por favor, escreva o assunto" placeholder="Escreva Sua Mensagem"></textarea>
+                                    data-msg="Por favor, escreva o assunto"
+                                    placeholder="Escreva Sua Mensagem"></textarea>
                                 <div class="validate"></div>
                             </div>
                             <div class="mb-3">
@@ -448,7 +454,7 @@
                                 <a href="https://api.whatsapp.com/send?phone=5517991427730" class="whatsapp"><i
                                         class="icofont-whatsapp"></i></a>
                                 <a href="https://t.me/KawanoTec" class="telegram"><i class="icofont-telegram"></i></a>
-                                <a href="https://bit.ly/2VuQ6d6" class="youtube"><i class="icofont-youtube"></i></a>                                
+                                <a href="https://bit.ly/2VuQ6d6" class="youtube"><i class="icofont-youtube"></i></a>
                         </ul>
                     </div>
                 </div>
