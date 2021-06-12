@@ -104,7 +104,7 @@ jQuery(document).ready(function($) {
     this_form.find('.sent-message').slideUp();
     this_form.find('.error-message').slideUp();
     this_form.find('.loading').slideDown();
-    
+        
     $.ajax({
       type: "POST",    
       url: action,
@@ -115,10 +115,11 @@ jQuery(document).ready(function($) {
           this_form.find('.loading').slideUp();
           this_form.find('.sent-message').slideDown();
           this_form.find("input:not(input[type=submit]), textarea").val('');
-          ;
+          this_form.find('.form-control').val('');
         } else {
           this_form.find('.loading').slideUp();
           this_form.find('.error-message').slideDown().html(msg);
+          this_form.find('.form-control').val('');
         }
       }      
     });

@@ -186,10 +186,9 @@
         <!-- ======= Orçamento Section ======= -->
         <section id="orcamento" class="form-orc" style="background-image: url('assets/imgs/form.jpg');">
             <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 mx-auto" data-aos="fade-up" data-aos-delay="100">
-                <h3 id="orcamento">Faça seu orçamento sem custo</h3>
-                <form action="forms/orcamento.php" method="post" role="form"
-                    class="php-email-form">
-                    <br>
+                <h3 id="orcamento">Solicite seu orçamento sem custo!</h3>
+                <form action="forms/orcamento.php" method="post" role="form" class="php-email-form">
+                    <br>                    
                     <div class="form-check">
                         <input class="form-check-input" type="radio" name="servico" id="servico"
                             value=" Conserto de Aparelho ">
@@ -198,20 +197,20 @@
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="servico" id="serv"
+                        <input class="form-check-input" type="radio" name="servico" id="servico"
                             value="Compra de Aparelho">
                         <label class="form-check-label" for="exampleRadios2">
                             Compra de Aparelho
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="servico" id="ser"
+                        <input class="form-check-input" type="radio" name="servico" id="servico"
                             value="Compra de Produtos ou Acessórios">
                         <label class="form-check-label" for="exampleRadios2">
                             Compra de Produtos ou Acessórios
                         </label>
                     </div>
-                    <br>                    
+                    <br>
                     <div class="form-group">
                         <label for="inputAparelho">Aparelho ou Acessório</label>
                         <input type="text" name="produto" class="form-control" id="produto"
@@ -230,7 +229,7 @@
                     <div class="form-group">
                         <label for="inputNome">Nome Completo</label>
                         <input type="text" name="nome" class="form-control" id="nome" placeholder="Seu Nome Completo"
-                        data-rule="required" data-msg="Insira seu nome" />
+                            data-rule="required" data-msg="Insira seu nome" />
                         <div class="validate"></div>
                     </div>
                     <div class="form-group">
@@ -243,7 +242,7 @@
                     <div class="form-group">
                         <label for="inputCidade">Cidade</label>
                         <input type="text" name="local" class="form-control" id="local" placeholder="Sua Cidade/Estado"
-                        data-rule="required" data-msg="Insira sua cidade" />
+                            data-rule="required" data-msg="Insira sua cidade" />
                         <div class="validate"></div>
                     </div>
                     <div class="mb-3">
@@ -252,10 +251,10 @@
                         <div class="sent-message">Sua mensagem foi enviada com sucesso. Obrigada!</div>
                     </div>
                     <br>
-                    <button type="submit" class="btn">Solicitar Orçamento</button>
+                    <button type="submit" class="btn">Clique Aqui</button>
                 </form>
-                
-                </div>
+
+            </div>
             </div>
         </section>
         <!-- End Orçamento Section -->
